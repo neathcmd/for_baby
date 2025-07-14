@@ -21,10 +21,6 @@ export default function Home() {
     }, 400); // Increased timeout to match animation duration
   };
 
-  const nextPage = () => {
-    console.log("next page");
-  };
-
   // Prevent body scroll when modal is open
   useEffect(() => {
     if (showModal) {
